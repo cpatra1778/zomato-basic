@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Merriweather', serif;
-  background-color: #ebf2ff;
+  background-color: #f9fafc;
 }
 
 .navbar {
@@ -23,7 +23,7 @@ body {
   width: 100%;
 }
 
-.button__primary  {
+.nav__item  {
   background-image: linear-gradient(
     to right,
     #ff512f 0%,
@@ -37,7 +37,7 @@ body {
     font-weight: 600;
 }
 
-.button__primary :hover {
+.nav__item:hover {
   border: 2px solid #FF6767;
   cursor: pointer;
 }
@@ -150,7 +150,7 @@ body {
      width: 150px;
    }
 
-   .button__primary  {
+   .nav__item  {
      padding: 20px;
      font-size: 20px;
    }
